@@ -1,9 +1,15 @@
-# Fabric Example Mod
+# Quick Coords Copy
+Allows you to quickly copy your in-game coordinates to send to your friends!
 
-## Setup
+![](https://cdn.discordapp.com/attachments/838048982873538572/1006522579223330866/unknown.png)
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Usage
+When in-game, press the `Copy Coordinates` key (<code>`</code> by default) and the coordinates will be copied to your keyboard.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Config
+```json5
+{
+	// The format of the string that gets copied. Use $x, $y and $z as placeholders.
+	"format": "Coordinates: $x, $y, $z"
+}
+```
