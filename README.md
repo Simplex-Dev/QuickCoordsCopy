@@ -7,9 +7,6 @@ Allows you to quickly copy your in-game coordinates to send to your friends!
 When in-game, press the `Copy Coordinates` key (<code>`</code> by default) and the coordinates will be copied to your keyboard.
 
 ## Config
-```json5
-{
-	// The format of the string that gets copied. Use $x, $y and $z as placeholders.
-	"format": "Coordinates: $x, $y, $z"
-}
+```yaml
+format=$x, $y, $z
 ```
